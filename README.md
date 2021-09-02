@@ -1,1 +1,1 @@
-# My-VSCode-Settings
+# My-VSCode-Settings.json
