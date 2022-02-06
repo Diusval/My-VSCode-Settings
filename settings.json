@@ -10,4 +10,6 @@
     "editor.semanticHighlighting.enabled": false,
   
     "editor.rulers": [80, 120],
+    
+    "editor.wordWrap": "on",
   }
