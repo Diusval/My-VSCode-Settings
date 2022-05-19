@@ -1,3 +1,3 @@
 # My-VSCode-Settings
 
-ctrl + shift + t
+ctrl + shift + p
