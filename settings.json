@@ -1,15 +1,21 @@
 {
-    "workbench.colorTheme": "Omni",
+    "workbench.colorTheme": "Dracula Pro",
     "workbench.iconTheme": "material-icon-theme",
-  
+      
+    "explorer.compactFolders": false,
     "window.zoomLevel":0.8,
     "editor.tabSize": 2,
-    "editor.fontSize": 16,
+    "editor.fontSize": 20,
     "editor.lineHeight": 26,
     "editor.fontLigatures": true,
     "editor.semanticHighlighting.enabled": false,
-  
+    "editor.fontFamily": "Fira Code",
+
     "editor.rulers": [80, 120],
-    
+
     "editor.wordWrap": "on",
-  }
+    
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+}
