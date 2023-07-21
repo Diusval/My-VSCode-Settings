@@ -17,11 +17,22 @@
     "editor.wordWrap": "on",
     
     "terminal.integrated.enableMultiLinePasteWarning": false,
-    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontSize": 16,
     "terminal.integrated.fontFamily": "JetBrains Mono",
     "terminal.integrated.lineHeight": 1.2,
 
     "explorer.compactFolders": false,
     "explorer.confirmDelete": false,
-    "explorer.confirmDragAndDrop": false
+    "explorer.confirmDragAndDrop": false,
+
+    "code-runner.runInTerminal": true,
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.executorMap": {
+        "python": "clear && python -u",
+    },
+    "code-runner.ignoreSelection": true,
+
+    "cSpell.userWords": [
+        "Diusval"
+    ]
 }
