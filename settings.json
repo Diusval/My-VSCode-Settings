@@ -1,7 +1,7 @@
 {
     "security.workspace.trust.untrustedFiles": "open",
     
-    "workbench.colorTheme": "OM Theme (No Italic)",
+    "workbench.colorTheme": "OM Theme (Default Dracula Italic)",
     "workbench.iconTheme": "material-icon-theme",
     
     "window.zoomLevel":0.8,
