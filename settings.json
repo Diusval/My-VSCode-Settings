@@ -1,4 +1,7 @@
 {
+    "security.allowedUNCHosts": [
+        "wsl.localhost"
+    ],
     "security.workspace.trust.untrustedFiles": "open",
     
     "workbench.colorTheme": "OM Theme (Default Dracula Italic)",
