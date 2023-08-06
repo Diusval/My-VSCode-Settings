@@ -39,3 +39,47 @@
         "Diusval"
     ]
 }
+
+or
+
+{
+    "security.allowedUNCHosts": [
+        "wsl.localhost"
+    ],
+    "security.workspace.trust.untrustedFiles": "open",
+    
+    "workbench.colorTheme": "OM Theme (Default Dracula Italic)",
+    "workbench.iconTheme": "material-icon-theme",
+    
+    "window.zoomLevel":0.4,
+
+    "editor.inlineSuggest.enabled": true,
+    "editor.tabSize": 2,
+    "editor.fontSize": 16,
+    "editor.lineHeight": 26,
+    "editor.fontLigatures": true,
+    "editor.semanticHighlighting.enabled": false,
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.rulers": [80, 120],
+    "editor.wordWrap": "on",
+    
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontFamily": "JetBrains Mono",
+    "terminal.integrated.lineHeight": 1.2,
+
+    "explorer.compactFolders": false,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    
+    "code-runner.runInTerminal": true,
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.executorMap": {
+        "python": "clear | python -u",
+    },
+    "code-runner.ignoreSelection": true,
+
+    "cSpell.userWords": [
+        "Diusval"
+    ]
+}
