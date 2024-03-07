@@ -1,85 +1,58 @@
 {
-    "security.allowedUNCHosts": [
-        "wsl.localhost"
-    ],
-    "security.workspace.trust.untrustedFiles": "open",
-    
-    "workbench.colorTheme": "OM Theme (Default Dracula Italic)",
-    "workbench.iconTheme": "material-icon-theme",
-    
-    "window.zoomLevel":0.8,
+    "apc.electron": {
+        "titleBarStyle": "hiddenInset"
+    },
+    "apc.header":{
+        "height": 36
+    },
+    "apc.listRow": {
+        "height": 24
+    },
+    "apc.font.family": "Inter",
+    "apc.stylesheet": {
+        ".nosidebar .inline-tabs-placeholder": "width: 75px",
+        ".pane-header": "padding: 0 8px",
+        ".pane-body": "padding: 8px",
+        ".monaco-list-row": "border-radius: 4px;",
+        ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;"
+    },
 
-    "editor.inlineSuggest.enabled": true,
-    "editor.tabSize": 2,
-    "editor.fontSize": 16,
-    "editor.lineHeight": 26,
-    "editor.fontLigatures": true,
-    "editor.semanticHighlighting.enabled": false,
-    "editor.fontFamily": "JetBrains Mono",
-    "editor.rulers": [80, 120],
-    "editor.wordWrap": "on",
-    
-    "terminal.integrated.enableMultiLinePasteWarning": false,
-    "terminal.integrated.fontSize": 16,
-    "terminal.integrated.fontFamily": "JetBrains Mono",
-    "terminal.integrated.lineHeight": 1.2,
-
-    "explorer.compactFolders": false,
-    "explorer.confirmDelete": false,
-    "explorer.confirmDragAndDrop": false,
+    "breadcrumbs.enabled": true,
 
     "code-runner.runInTerminal": true,
-    "code-runner.clearPreviousOutput": true,
     "code-runner.executorMap": {
-        "python": "clear && python -u",
+        "python": "clear ; python -u",
     },
     "code-runner.ignoreSelection": true,
 
-    "cSpell.userWords": [
-        "Diusval"
-    ]
-}
-
-or
-
-{
-    "security.allowedUNCHosts": [
-        "wsl.localhost"
-    ],
-    "security.workspace.trust.untrustedFiles": "open",
-    
-    "workbench.colorTheme": "OM Theme (Default Dracula Italic)",
-    "workbench.iconTheme": "material-icon-theme",
-    
-    "window.zoomLevel":0.4,
-
-    "editor.inlineSuggest.enabled": true,
-    "editor.tabSize": 2,
-    "editor.fontSize": 16,
-    "editor.lineHeight": 26,
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontSize": 14,
+    "editor.lineHeight": 1.8,
+    "editor.rulers": [80, 120],
+    "editor.renderLineHighlight": "gutter",
     "editor.fontLigatures": true,
     "editor.semanticHighlighting.enabled": false,
-    "editor.fontFamily": "JetBrains Mono",
-    "editor.rulers": [80, 120],
-    "editor.wordWrap": "on",
-    
-    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "editor.minimap.enabled": false,
+    "editor.scrollbar.vertical": "hidden",
+    "editor.scrollbar.horizontal": "hidden",
+    "explorer.compactFolders": false,
+
+    "python.defaultInterpreterPath": "python",
+
+    "symbols.hidesExplorerArrows": false,
+
     "terminal.integrated.fontSize": 14,
-    "terminal.integrated.fontFamily": "JetBrains Mono",
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
     "terminal.integrated.lineHeight": 1.2,
 
-    "explorer.compactFolders": false,
-    "explorer.confirmDelete": false,
-    "explorer.confirmDragAndDrop": false,
-    
-    "code-runner.runInTerminal": true,
-    "code-runner.clearPreviousOutput": true,
-    "code-runner.executorMap": {
-        "python": "clear | python -u",
-    },
-    "code-runner.ignoreSelection": true,
-
-    "cSpell.userWords": [
-        "Diusval"
-    ]
+    "window.titleBarStyle": "native",
+    "window.commandCenter": false,
+    "window.zoomLevel":0.4,
+    "workbench.colorTheme": "Min Dark",
+    "workbench.iconTheme": "symbols",
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.editor.labelFormat": "short",
+    "workbench.activityBar.location": "hidden",
+    "workbench.statusBar.visible": true,
+    "workbench.layoutControl.enabled": false,
 }
