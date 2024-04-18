@@ -1,7 +1,4 @@
 {
-    "apc.electron": {
-        "titleBarStyle": "hiddenInset"
-    },
     "apc.header":{
         "height": 36
     },
@@ -14,7 +11,6 @@
         ".pane-header": "padding: 0 8px",
         ".pane-body": "padding: 8px",
         ".monaco-list-row": "border-radius: 4px;",
-        ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;"
     },
 
     "breadcrumbs.enabled": true,
@@ -45,14 +41,11 @@
     "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
     "terminal.integrated.lineHeight": 1.2,
 
-    "window.titleBarStyle": "native",
-    "window.commandCenter": false,
     "window.zoomLevel":0.4,
     "workbench.colorTheme": "Min Dark",
     "workbench.iconTheme": "symbols",
     "workbench.startupEditor": "newUntitledFile",
     "workbench.editor.labelFormat": "short",
     "workbench.activityBar.location": "hidden",
-    "workbench.statusBar.visible": true,
     "workbench.layoutControl.enabled": false,
 }
